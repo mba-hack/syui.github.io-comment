@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 d=${0:a:h:h}
-cd _posts
+cd $d/_posts
 f=`zsh -c "ls -A"`
 n=`echo "$f" | wc -l`
 for (( i=1;i<=$n;i++ ))
